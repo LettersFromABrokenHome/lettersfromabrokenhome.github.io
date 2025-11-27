@@ -1,0 +1,29 @@
+	.nav_bar_title {
+		float: left;
+		color: black;
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 24px;
+		text-decoration: none;
+	}
+
+
+	.nav_bar {
+		float: right;
+	}
+
+	.nav_bar a {
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 24px;
+		text-decoration: none;
+	}
+	
+	.nav_ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
