@@ -1,13 +1,11 @@
 	.nav_bar_title {
 		float: left;
-		color: black;
 		display: block;
 		color: black;
 		text-align: center;
 		padding: 24px;
 		text-decoration: none;
 	}
-
 
 	.nav_bar {
 		float: right;
@@ -20,10 +18,53 @@
 		padding: 24px;
 		text-decoration: none;
 	}
-	
+
 	.nav_ul {
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
 		overflow: hidden;
+	}
+
+	/*Speech Table*/
+
+	.speech_link:hover {
+		cursor: pointer;
+	}
+
+	.title_row {
+		display: grid;
+		grid-template-columns: 75% 25%;
+	}
+
+	.info_row {
+		display: grid;
+		grid-template-columns: 25% 75%;
+	}
+
+
+	.table {
+		display: grid;
+		border: 4px solid black;
+		grid-template-rows: 1fr 1fr;
+	}
+
+.row1 .cell:last-child,
+.row2 .cell:last-child {
+    border-right: none;
+}
+
+
+	/*Speech tags*/
+
+	.religious {
+		border-radius: 25px;
+		background-color: #e8fc00;
+		padding: 6px;
+	}
+
+	.inspirational {
+		border-radius: 25px;
+		background-color: #ce009e;
+		padding: 6px;
 	}

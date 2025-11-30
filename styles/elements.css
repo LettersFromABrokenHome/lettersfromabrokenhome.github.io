@@ -1,14 +1,19 @@
-body {
-    padding-top: 0%;
-    margin:0;
-    background-color: darkgray;
-}
+    body {
+        padding-top: 0%;
+        margin:0;
+        background-color: darkgray;
+    }
 
-div{
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
+    div {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    table {
+        border: 3px solid black;
+    }
+
+    th {
+        text-align: left;
+        width: fit-content;
+    }
