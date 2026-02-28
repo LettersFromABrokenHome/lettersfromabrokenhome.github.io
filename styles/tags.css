@@ -1,0 +1,31 @@
+	/*Speech tags*/
+
+	.religious {
+		border-radius: 25px;
+		background-color: #e8fc00;
+		padding: 6px;
+	}
+
+	.inspirational {
+		border-radius: 25px;
+		background-color: #fd47d6;
+		padding: 6px;
+	}
+
+	.commentary {
+		border-radius: 25px;
+		background-color: #00f163;
+		padding: 6px;
+	}
+
+    .speech {
+		border-radius: 25px;
+		background-color: #9900f1;
+		padding: 6px;
+	}
+
+    .reflection {
+		border-radius: 25px;
+		background-color: #ff8400;
+		padding: 6px;
+	}

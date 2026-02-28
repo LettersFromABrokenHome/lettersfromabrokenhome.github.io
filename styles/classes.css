@@ -53,24 +53,3 @@
 .row2 .cell:last-child {
     border-right: none;
 }
-
-
-	/*Speech tags*/
-
-	.religious {
-		border-radius: 25px;
-		background-color: #e8fc00;
-		padding: 6px;
-	}
-
-	.inspirational {
-		border-radius: 25px;
-		background-color: #fd47d6;
-		padding: 6px;
-	}
-
-	.commentary {
-		border-radius: 25px;
-		background-color: #00f163;
-		padding: 6px;
-	}
